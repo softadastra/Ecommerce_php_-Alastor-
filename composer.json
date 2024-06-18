@@ -1,0 +1,21 @@
+{
+    "name": "softadastra.com/e-commerce",
+    "autoload": {
+        "psr-4": {
+            "Softadastra\\Application\\": "Application",
+            "Softadastra\\Router\\": "Router/",
+            "Softadastra\\": "src/",
+            "Softadastra\\Config\\": "Config/",
+            "Softadastra\\Domain\\Auth\\": "Domain/Auth/src/",
+            "Softadastra\\Domain\\Shop\\": "Domain/Shop/src/",
+            "Softadastra\\Domain\\Chat\\": "Domain/Chat/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gaspard kirira",
+            "email": "softadastra@gmail.com"
+        }
+    ],
+    "require": {}
+}
