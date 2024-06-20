@@ -7,7 +7,7 @@ class UserEntity
     private ?int $id;
     private string $fullName = "";
     private string $email;
-    private string $phone;
+    private $phone = "";
     private string $password;
     private string $photo;
     private string $role;
@@ -18,7 +18,7 @@ class UserEntity
 
     private array $errors = [];
 
-    public function __construct(string $full_name, string $email, string $phone, string $password, string $photo, string $role = 'user', string $status = 'active', $country = 1)
+    public function __construct(string $full_name, string $email, $phone, string $password, string $photo, string $role = 'user', string $status = 'active', $country = 1)
     {
         $this->setFullName($full_name);
         $this->setEmail($email);
